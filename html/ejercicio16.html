@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tema 3 ejercicio 12</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/ejercicio1.css">
+    </head>
+    <body background="../images/congreso.jpg">  
+       <div id="alrrededor" style="position:absolute; top:0px; left:5px">
+            <a href="#" class="am" onMouseOver="ocultaTodos();"><img src="../images/long_spacer.gif" border=0></a>
+       </div>
+       <div id="top1" style="position:absolute; top:20px; left:10px; z-index:1">
+            <a href="#" class="am"
+                  onMouseOver="ocultaTodos(); cambiaDiv('divUno','visible');">Archivo</a>
+            </div>
+                            
+        <div id="top2" style="position:absolute; top:20px; left:95px; z-index:1">
+            <a href="#" class="am"
+                  onMouseOver="ocultaTodos(); cambiaDiv('divDos','visible');">Editar</a>
+        </div>
+                           
+        <div id="top3" style="position:absolute; top:20px; left:155px; z-index:1">
+             <a href="#" class="am"
+                  onMouseOver="ocultaTodos(); cambiaDiv('divTres','visible');">Ayuda</a>
+        </div>
+                            
+                            
+        <div id="abajo" style="position:absolute; top:80px; left:0px" onMouseMove="ocultaTodos();">
+                       <img src="../images/volcan.jpg">
+        </div>
+        <div id="divUno" style="position:absolute; top:40px; left:10px; visibility:hidden; border:1px black solid; background:yellow">
+                 <a href="#" class="am" onClick="alert('Abrir');">Abrir      </a><br>
+                 <a href="#" class="am" onClick="alert('Salvar');">Salvar     </a><br>
+                 <a href="#" class="am" onClick="alert('Salvar como');">Salvar como</a><br>
+                 <a href="../index.html" class="am" onClick="alert('Salir');">Salir      </a><br>
+        </div>
+                            
+        <div id="divDos" style="position:absolute; top:40px; left:95px; visibility:hidden; border:1px black solid; background:yellow">
+                <a href="#" class="am" onClick="alert('Copiar');">Copiar de</a><br>
+                <a href="#" class="am" onClick="alert('Pegar');">Pegar  a</a><br>
+                <a href="#" class="am" onClick="alert('Cortar');">Cortar de</a><br>
+        </div>
+                            
+        <div id="divTres" style="position:absolute; top:40px; left:155px; visibility:hidden; border:1px black solid; background:yellow">
+               <a href="#" class="am" onClick="alert('Acerca de\nDerechos reservados 2019\nAutor: Lic. Rafael Herrera García');">Acerca de</a><br>
+               <a href="#" class="am" onClick="alert('Version');">Version  </a><br>
+               <a href="#" class="am" onClick="alert('Manual');">Manual   </a><br>
+        </div>
+        <script src="../js/ejercicio16.js"></script>
+    </body>
+</html>

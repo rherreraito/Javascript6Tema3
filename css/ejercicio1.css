@@ -1,0 +1,67 @@
+.principal{
+    display: block;
+    border: 5px solid green;
+    padding: 20px;
+    margin: 20px;
+}
+.secundario{
+    display: block;
+    border: 5px solid yellowgreen;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+.boton,.boton0{
+    background-color: rgba(39, 124, 5, 0.959);
+    width: 80px;
+    height: 60px;
+    font-size: 40px;
+}
+.entrada{
+    background-color: floralwhite;
+    color: green;
+    height: 40px;
+    font-size: 36px;
+}
+
+.boton0{
+    width: 173px;
+}
+
+#tiempo{
+      background-color: black;
+      color: white;
+      height: 300;
+      font: 1em sans-serif;
+      font-size: 150px;
+}
+
+#retorno {
+    position: fixed;
+    bottom: 200px;
+    left:600px;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+#tablaResultados{
+    position: fixed;
+    bottom: 10px;
+}
+
+.amain{
+    font-size: 20px;
+}
+
+#forma{
+    font-size: 24px;
+    align-content: center;
+}
+
+.am{
+    text-decoration: none;
+    font-size:20px;
+    color: rgb(10, 34, 255);
+}
