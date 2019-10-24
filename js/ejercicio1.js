@@ -6,7 +6,7 @@
 let colorR=1,colorG=1,colorB=1;
 
 function inicio(){
-    setInterval(cambiaColor,500); // Temporizador cada medio segundo aprox.
+    setInterval(cambiaColor,5); // Temporizador cada medio segundo aprox.
 }
 
 function cambiaColor(){

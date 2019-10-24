@@ -11,7 +11,10 @@
     margin: 5px;
 }
 
-
+.error{
+    visibility: hidden;
+    color: crimson;
+}
 
 .boton,.boton0{
     background-color: rgba(39, 124, 5, 0.959);
